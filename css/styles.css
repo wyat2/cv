@@ -16,14 +16,6 @@ table {
     border: 5px groove rgba(28,110,164,0.28);
 }
 
-img {
-    border-radius: 100%;
-    border-width: 0px, 10px, 20px, 30px;
-    border: 1px solid #ddd;
-    padding: 5px;
-    width: 150px;
-}
-
 body{
     margin: 0px;
 
@@ -56,6 +48,18 @@ body{
     padding: 2px;
 }
 
+.profile {
+    border-radius: 100%;
+    border-width: 0px, 10px, 20px, 30px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 150px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
 .btn {
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -81,6 +85,39 @@ body{
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+  }
+
+  .cloud1 {
+    position: relative;
+    display: inline-block;
+    top: 60px;
+}
+
+  .name {
+      position: relative;
+      display:inline-block;
+      left: 0px; 
+      top: -5px;
+  }
+
+  .name2 {
+    position: relative;
+    display: inline-block;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .cloud2 {
+      position: relative;
+      display: inline-block;
+      top: 0px;
+      left: 0px;
+  }
+
+  .mountain {
+    position:relative;
+    display: inline-block;
+    left: 0px;
   }
 
   /********************* ID SELECTORS *******************/
